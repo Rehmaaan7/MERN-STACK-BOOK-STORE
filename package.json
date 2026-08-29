@@ -1,0 +1,20 @@
+{
+  "name": "books_store",
+  "version": "1.0.0",
+  "description": "Bookstore backend",
+  "license": "ISC",
+  "author": "Mujib ur Rahman",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.0",
+    "nodemon": "^3.1.14"
+  }
+}
