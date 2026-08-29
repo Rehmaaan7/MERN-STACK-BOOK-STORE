@@ -1,0 +1,25 @@
+# Environment Variables (Never commit these!)
+.env
+*.env
+
+# Dependency Folders
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production / Build Output
+build/
+dist/
+client/build/
+client/dist/
+
+# System & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
